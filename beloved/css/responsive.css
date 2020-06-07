@@ -1,0 +1,101 @@
+/* MEDIA QUERIES
+==============================*/
+
+/* TABLET VIEWPORT
+==============================*/
+@media screen and (min-width: 481px) {
+
+
+/* PAGE: PORTFOLIO
+==============================*/
+ 
+#gallery li {
+	width: 40%;
+	margin: 0 auto;
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+
+#gallery li p {
+	font-size: .70em;
+}
+
+/* PAGE: CONTATCT
+==============================*/
+
+.general-info {
+	width: 50%;
+	float: left;
+}
+
+.contact-details {
+	width: 40%;
+	float: right;
+}
+/*.contact-details h3 {
+	margin-left: 35px;
+}*/
+
+}
+
+/* DESKTOP VIEWPORT
+==============================*/
+
+@media screen and (min-width: 769px) {
+
+/* HEADING
+==============================*/
+nav {
+	background: none;
+	float: right;
+	margin-top: -30px;
+	margin-right: 30px;
+	font-size: 1.175em;
+}
+
+header {
+	border-bottom: 10px solid #003b6d;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.logo {
+	float: left;
+	margin-left: 50px;
+}
+
+.logo h1 {
+	font-size: 3em;
+}
+
+.logo h2 {
+	margin-right: -30px;
+	margin-top: 10px;
+}
+
+
+/* PAGE: PORTFOLIO
+==============================*/
+#gallery li {
+	width: 26.666%;
+	margin-right: 2%;
+}
+
+#gallery li p {
+	font-size: .80em;
+}
+
+
+/* PAGE: ABOUT
+==============================*/
+
+.profile-pic {
+ float: left;
+ margin: 0 50px 30px 0;
+}
+
+
+
+
+
+}
